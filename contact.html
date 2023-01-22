@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Overpass:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/contact.css">
     <link rel="icon" href="/pictures/LogoEdit.png" type="image/x-icon">
+ 
+
     <title>ContactUs-Page</title>
 </head>
 <body class="body">
@@ -70,17 +72,16 @@
      <h4 class="email-Link"><a href="mailto:webdev.learnersuni@gmail.com" target="_blank">webdev.learnersuni@gmail.com</a></h4>
 
         <div class="contactInformation">
-           
-            <form class="form" action="https://formsubmit.co/webdev.learnersuni@gmail.com" method="POST">
-                <input class="contactBox box1" type="text" placeholder="Name" name="name" required>
-                <input class="contactBox box2" type="email" placeholder="Email" name="email" required>
-                <input class="contactBox box3" type="text" placeholder="Subject" name="subject" required>
+            <form class="form" action="#">
+                <input id="name" class="contactBox box1"  type="text" placeholder="Name" name="name" required>
+                <input id="email" class="contactBox box2" type="email" placeholder="Email" name="email" required>
+                <input id="subject" class="contactBox box3" type="text" placeholder="Subject" name="subject" required>
                 <h3>Message</h3>
-                <textarea  class ='box4 message'  rows="10" cols="40" type="text" name="message" required></textarea>
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_next" value="https://thegrowthenhancement.com/thankYou.html">
+                <textarea   id="message" class ='box4 message'  rows="10" cols="40" type="text" name="message" required ></textarea>
+                <!-- <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://thegrowthenhancement.com/thankYou.html"> -->
                 <div class="bttn">
-                <button class="sub" type="submit">SUBMIT</button>
+                <button class="sub" onclick="sendMail()" >SUBMIT</button>
                 </div>
             </form>
                 
@@ -141,6 +142,16 @@
         <a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Twitter icons created by Freepik - Flaticon</a>     
         <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by pictogramer - Flaticon</a> -->
     </footer>
+   
     <script src="js/contact.js"></script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("4Ag6TR00uyG7mCz_8");
+        })();
+    </script>
+    
 </body>
 </html>
