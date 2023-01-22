@@ -15,8 +15,14 @@
 </head>
 <body class="body">
     <!-- HEADER//NAVIGATION -->
+    <div class="thankYouDrop" >
+        <h2>Thank you</h2>
+        <p>Your message was successfully sent!</p>
+        <button onclick='closeBtn()' class="closeBttn">Close</button>
+    </div>
+
     <header>
-        
+      
         <nav>
             <div  class="navigation">
                 <img class="mainLogo" src="/pictures/Main-Logo.png" onclick="homepage()">
@@ -72,22 +78,23 @@
      <h4 class="email-Link"><a href="mailto:webdev.learnersuni@gmail.com" target="_blank">webdev.learnersuni@gmail.com</a></h4>
 
         <div class="contactInformation">
-            <form class="form" action="#">
+            <div class="form">
                 <input id="name" class="contactBox box1"  type="text" placeholder="Name" name="name" required>
                 <input id="email" class="contactBox box2" type="email" placeholder="Email" name="email" required>
                 <input id="subject" class="contactBox box3" type="text" placeholder="Subject" name="subject" required>
                 <h3>Message</h3>
                 <textarea   id="message" class ='box4 message'  rows="10" cols="40" type="text" name="message" required ></textarea>
-                <!-- <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_next" value="https://thegrowthenhancement.com/thankYou.html"> -->
-                <div class="bttn">
-                <button class="sub"onclick="sendMail()">SUBMIT</button>
-                </div>
-            </form>
-                
- 
-        </div>
+                <div class="nameError"></div>
+                <div class="emailError"></div>
+                <div class="subjectError"></div>
+                <div class="messageError"></div>
 
+                <div class="bttn">
+                <button class="sub">SUBMIT</button>
+                </div>
+            </div>
+        </div>
+        <!-- onclick="sendMail()" -->
     </main>
 
 
