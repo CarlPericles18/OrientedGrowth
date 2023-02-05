@@ -1,4 +1,5 @@
 
+![orientedgrowth-high-resolution-logo-white-on-transparent-background](https://user-images.githubusercontent.com/86575576/216800199-a94080bc-ee31-4afe-a498-17d178ef70f2.png)
 
 This website is for information purpose only,
 All rights all reserved. This website give information on many things in life; Finance, Health, LifeStyle and many more.
