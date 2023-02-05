@@ -1,9 +1,13 @@
 
 ![orientedgrowth-high-resolution-logo-black-on-transparent-background](https://user-images.githubusercontent.com/86575576/216800366-7b383dbe-b6c4-4c56-8533-3915cdc4dc4f.png)
 
+
+</br>
+
+
 # OrientedGrowth
 <!-- ABOUT -->
-## About
+## <span style="color:blue">About</span>. 
 - This website was created by Carl Pericles. Articles that are listed in the website have contact information and authors have been properly credited for their work. Contact Carl Pericles or OrientedGrowth team on the contact page for any concern and question.
 ## Goal
 - To share and motivate young adults to live a meaningful life by bringing free article from many different writers around the world.
