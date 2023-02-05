@@ -1,5 +1,6 @@
 
-![OrientedGrowthBanner](https://user-images.githubusercontent.com/86575576/216800297-648a3f4e-a74f-4b07-9596-9a599ccf6ab5.png)
+![OrientedGrowth (1)](https://user-images.githubusercontent.com/86575576/216800327-186a7151-cf34-418d-92e6-9615d954a206.png)
+
 ![ReadMeScreenShhot](https://user-images.githubusercontent.com/86575576/216800233-458e069a-9145-4019-9ec2-3b796418b14c.png)
 # OrientedGrowth
 <!-- ABOUT -->
@@ -12,3 +13,4 @@
 - Contact us through our contact page if you are willing to have your article on our page. 
 
 - Feel free to us the code for learning purposes only. See our terms and condition. Thank you.
+
