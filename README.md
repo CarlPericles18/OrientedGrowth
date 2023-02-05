@@ -2,11 +2,8 @@
 
 </br>
 
-# OrientedGrowth
 <!-- ABOUT -->
 ## About
-<span style="color: red">written in red</span>.
-<span style="color: blue">About</span>
 - This website was created by Carl Pericles. Articles that are listed in the website have contact information and authors have been properly credited for their work. Contact Carl Pericles or OrientedGrowth team on the contact page for any concern and question.
 ## Goal
 - To share and motivate young adults to live a meaningful life by bringing free article from many different writers around the world.
