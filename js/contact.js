@@ -40,33 +40,11 @@ mobilePov.addEventListener('click',()=>{
  const submit = document.querySelector(".sub")
  const errors = document.querySelector('.errors');
 
-// function mailErrors(){
-    
-//     if(formName.value === ''){
-//         const el = document.createElement('p')
-//         el.innerText  = 'Please enter a name'
-//         el.style.color = 'RED'
-//         nameError.append(el)
-//     }else if(formEmail.value === ''){
-//         const el = document.createElement('p')
-//         el.innerText  = 'Please enter a valid Email'
-//         el.style.color = 'red'
-//         emailError.append(el)
-//     }else if(formSubject === ''){
-//         el.innerText  = 'Please enter a subject'
-//         el.style.color = 'red'
-//         subjectError.append(el)
-//     }else if(formMessage === ''){
-//         el.innerText  = 'Please enter a message'
-//         el.style.color = 'red'
-//         messageError.append(el)
-//     }else{
-//         el.innerText  ='Please fill the information above'
-//         el.style.color = 'red'
-//         // nameError.append(el)
-//     }
-
-// }
+  
+ const validEmail = (email) =>{
+    let formatEmail = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return formatEmail.test(String(email).toLowerCase());
+}
 
 // SENDING EMAIL CODE
 function sendMail(){
@@ -88,15 +66,31 @@ emailjs.send(serviceId, templateId,params)
         document.getElementById("message").value = "";
         console.log(res)
         thankYouDrop.style.display = 'block';
-        body.style.position ='fixed'
     })
     .catch((err)=>{
         console.log(err)
     })
 };
 
+function mailErrors(){
+    let emailValues = formEmail.value;
+    if((formName.value === '' || formEmail.value === '' || formSubject.value === '' || formMessage.value === '')){
+        errors.innerHTML = 'Please fill up the information above'
+        errors.style.color = 'red' 
+        messageError.innerHTML = ''
+    }else if(validEmail(emailValues)){
+        sendMail()
+        errors.innerHTML = ''
+        messageError.innerHTML = ''
+    }else{
+        errors.innerHTML = ''
+        messageError.innerHTML = 'Invalid Email'
+        messageError.style.color = 'red'
+    }
+}
+
 submit.addEventListener('click',()=>{
-    sendMail()
+    mailErrors()
 })
 
 
@@ -104,12 +98,4 @@ submit.addEventListener('click',()=>{
 function closeBtn(){
     thankYouDrop.style.display = 'none';
     body.style.position =''
-}
-
-
-
-
-
-
-
-
+};

@@ -21,7 +21,7 @@ body{
 }
 .mainLogo{
     margin: 10px 0 0 0;
-    width: 80%;
+    width: 50%;
     height: auto;
     cursor: pointer;
 
@@ -53,71 +53,7 @@ body{
 
 
 
-.active .bar:nth-child(2){
-    opacity: 0;
-}
-.active .bar:nth-child(1){
-    transform: translateY(8px) rotate(45deg);
-    background-color: #AFB3F7;
-}
-.active .bar:nth-child(3){
-    transform: translateY(-12px) rotate(-45deg);
-    background-color: #AFB3F7;
-
-}
-
-
-
-.ulList{
-    font-size: 23px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    padding-top: 30px;
-    background-color: #171A21;
-    text-align: left;
-    top: 50px;
-    width: 100%;
-    height: 100%;
-    transition: 0.7s;
-    right: 510px;
-    position: absolute;
-}
-.active{
-    right:0;    
-    transition: 0.7s;
-}
-.ulList li{
-    list-style-type: none;
-    padding: 0 0 0 30px;
-
-}
-
-.ulList li a{
-    text-decoration: none;
-    color: #AFB3F7;
-    font-weight: bold;
-}
-.ulList li a:hover{
-    color:  #EEFBF5;
-}
-
-
-.socialLink{
-    display: flex;
-    width: 30%;
-    justify-content: center;
-    margin: 0 auto 0 auto;
-
-}
-.socialLink img{
-    cursor: pointer;
-    border: 1px solid #EEFBF5;
-    border-radius: 10%;
-    background-color: #EEFBF5;
-    padding: 4px;
-    width: 40%;
-}
+ 
 
 
 /* MAIN */
@@ -299,7 +235,8 @@ textarea {
     transition: 0.2s ease-in-out;
 }
 .sub:hover{
-    background-color: #AFB3F7;
+    background-color: black;
+    color: white;
 }
 
 
@@ -326,56 +263,7 @@ textarea {
 
 
 
-/* FOOTER */
 
-.contactInfo{
-    background-color: #171A21;
-    position: relative;
-    margin-top:20%;
-    font-family: var(--font-familyTwo);
-}
-.contactInfoTwo img{
-    width: 50%;
-    height: auto;
-    
-}
-.terms {
-    margin-top: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-.terms a{
-    color: #EEFBF5;
-    text-decoration: none;
-
-}
-.social{
-    display: flex;
-    flex-direction: row;
-    width: 45%;
-    margin: 20px auto 0 auto;
-    justify-content: center;
-    gap: 15px;
-
-}
-.social img{
-    border: 1px solid white;
-    background-color: #EEFBF5;
-    border-radius: 5px;
-    width: 30%;
-    padding: 4px;
-    height: auto;
-    cursor: pointer;
-}
-  
-  .copyright{
-    color: rgb(194, 192, 192);
-    bottom: 0px;
-    font-size: 9px;
-    text-align: center;
-}
 .iconImgMail{
     width: 50%;
 }
@@ -405,7 +293,7 @@ body{
 }
 .mainLogo{
     margin: 10px 0 0 0;
-    width: 80%;
+    width: 50%;
     height: auto;
     cursor: pointer;
 }
@@ -423,7 +311,7 @@ body{
 
  
 .bar{
-    background-color:#171A21 ;
+    background-color:black;
     display: block;
     width: 35px;
     height:5px;
@@ -439,11 +327,11 @@ body{
 }
 .active .bar:nth-child(1){
     transform: translateY(8px) rotate(45deg);
-    background-color: #AFB3F7;
+    background-color: black;
 }
 .active .bar:nth-child(3){
     transform: translateY(-12px) rotate(-45deg);
-    background-color: #AFB3F7;
+    background-color: black;
 
 }
 
@@ -455,7 +343,7 @@ body{
     flex-direction: column;
     gap: 30px;
     padding-top: 30px;
-    background-color: #171A21;
+    background-color: white;
     text-align: left;
     top: 50px;
     width: 100%;
@@ -476,11 +364,11 @@ body{
 
 .ulList li a{
     text-decoration: none;
-    color: #AFB3F7;
+    color: black;
     font-weight: bold;
 }
 .ulList li a:hover{
-    color:  #EEFBF5;
+    color:   #0015d6;
 }
 
 
@@ -488,20 +376,14 @@ body{
 
 
 hr {
-    background:#EEFBF5 ;
+    background:black;
     height: 1px;
     border: 0px;
 
 }
 
 
-.languageBtn{
-    cursor: pointer;
-    color: #EEFBF5;
-    text-align: center;
-    margin-top: 220px;
 
-}
 .socialLink{
     display: flex;
     width: 30%;
@@ -541,61 +423,25 @@ hr {
     margin: 20px 50px;
     font-family: var(--font-family);
 }
-.span1{
-    color: #AFB3F7;
-}
 
 .mainText2{
     text-align: center;
     margin: 60px 50px;
     font-family: var(--font-family);
 }
-.span2{
-    color: #AFB3F7;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* FOOTER */
 
 .contactInfo{
+    border: 1px solid #171A21;
     background-color: #171A21;
     position: relative;
     margin-top:20%;
     font-family: var(--font-familyTwo);
 }
 .contactInfoTwo img{
-    width:45%;
+    width: 30%;
     height: auto;
     margin: 10px 0 0 10px;
     
@@ -643,9 +489,40 @@ hr {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 600px) {
     .mainLogo{
-        width: 40%;
+        width: 18%;
         margin: 10px 100% 0 30px;
      }
   
@@ -680,7 +557,7 @@ hr {
     font-size: 25px;
     }
    .ulListDesktop a:hover{
-       color: #AFB3F7;
+       color:  #0015d6;
        text-decoration: none;
        font-size: 25px;
    }

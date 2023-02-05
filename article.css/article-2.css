@@ -91,7 +91,7 @@ body{
 
 .ulList li a{
     text-decoration: none;
-    color: #AFB3F7;
+    color:#0015d6;
     font-weight: bold;
 }
 .ulList li a:hover{
@@ -139,7 +139,7 @@ hr {
     margin-left: 10px;
 }
 .articleTitle:hover{
-    color: #AFB3F7;
+    color:#0015d6;
 }
 .articleOne a{
     text-decoration: none;

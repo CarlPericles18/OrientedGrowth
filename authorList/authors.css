@@ -20,7 +20,7 @@ body{
 }
 .mainLogo{
     margin: 10px 0 0 0;
-    width: 80%;
+    width: 50%;
     height: auto;
     cursor: pointer;
 }
@@ -70,7 +70,7 @@ body{
     flex-direction: column;
     gap: 30px;
     padding-top: 30px;
-    background-color: #171A21;
+    background-color: white;
     text-align: left;
     top: 37px;
     width: 100%;
@@ -91,29 +91,19 @@ body{
 
 .ulList li a{
     text-decoration: none;
-    color: #AFB3F7;
+    color:black;
     font-weight: bold;
 }
 .ulList li a:hover{
-    color:  #EEFBF5;
-}
-
-
-
-
-hr {
-    background:#EEFBF5 ;
-    height: 1px;
-    border: 0px;
+    color: #0015d6;
 
 }
-.languageBtn{
-    cursor: pointer;
-    color: #EEFBF5;
-    text-align: center;
-    margin-top: 220px;
 
-}
+
+
+
+
+
 .socialLink{
     display: flex;
     width: 30%;
@@ -132,7 +122,7 @@ hr {
 
 /* MAIN */
 
-.auhtorDiv{
+.authorDiv{
     background-color: #171A21;
 }
 .name{
@@ -141,7 +131,7 @@ hr {
     text-align: center;
 }
 .authorTitle{
-    color: #AFB3F7;
+    color:#0015d6;
     text-align: center;
     font-family: var(--font-familyTwo);
     margin: 0;
@@ -225,7 +215,7 @@ hr {
     font-family: var(--font-familyTwo);
 }
 .contactInfoTwo img{
-    width: 50%;
+    width: 30%;
     height: auto;
     
 }
@@ -270,7 +260,7 @@ hr {
 
 @media only screen and (min-width: 600px) {
     .mainLogo{
-        width: 40%;
+        width: 18%;
         margin: 10px 100% 0 30px;
      }
   
@@ -301,7 +291,7 @@ hr {
     font-size: 25px;
     }
    .ulListDesktop a:hover{
-       color: #AFB3F7;
+       color:#0015d6;
        text-decoration: none;
        font-size: 25px;
    }

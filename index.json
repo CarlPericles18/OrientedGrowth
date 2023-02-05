@@ -35,36 +35,50 @@
             "date":"Last Updated Dec. 2, 2022"
         },
 
-
-
+        {
+            "id": 3,
+            "article1": 3,
+            "title":"How to have a more productive workout",
+            
+            "name":"By Carl Pericles",
+            "date":"Last Updated Dec. 2, 2022"
+        },
+        {
+            "id": 4,
+            "article1": 4,
+            "title":"Eating healthy",
+            
+            "name":"By Carl Pericles",
+            "date":"Last Updated Dec. 2, 2022"
+        },
         
         { 
-            "id": 3,
-            "article3": 3,
+            "id": 5,
+            "article3": 5,
             "title":"Life lesson for hard working people",
             "name":"Billy",
             "date":"Dec 2, 2022",
             "text": "minima in quae dolores f  quia at quam ipsum  eum,"
         },
         { 
-            "id": 4,
-            "article4": 4,
+            "id": 6,
+            "article4": 6,
             "title":"Reasons to worth fighting for",
             "name":"Billy",
             "date":"Dec 2, 2022",
             "text": "minima in quae dolores f  quia at quam ipsum  eum,"
         },
         { 
-            "id": 5,
-            "article5": 5,
+            "id": 7,
+            "article5": 7,
             "title":"Facing challanges throughout your younger years",
             "name":"Billy",
             "date":"Dec 2, 2022",
             "text": "minima in quae dolores f  quia at quam ipsum  eum,"
         },
         { 
-            "id": 6,
-            "article6": 6,
+            "id": 8,
+            "article6": 8,
             "title":"The path to righteous",
             "name":"Billy",
             "date":"Dec 2, 2022",

@@ -23,14 +23,15 @@ const subT6 = document.querySelector(".subT6")
 const articleText6 = document.querySelector('.article-Text6');
 
 
-
+function homepage(){
+    window.location.href='/index.html'
+}
 
 
     mobilePov.addEventListener('click',()=>{   
         body.classList.toggle('fixed')
         
 })
-
 
 fetch('/index.json')
 .then(response => response.json())
@@ -39,6 +40,7 @@ fetch('/index.json')
     subT1.append('Error!! FAILED TO LOAD CONTENT')
     subT1.style.color ='red'
 })
+
 
 function showInfo(data){
     articleTitle.append(data[0].title)

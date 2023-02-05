@@ -4,6 +4,9 @@ const navMenu = document.querySelector('.ulList')
 const active = document.querySelector('.active')
 const body = document.querySelector('.body')
 //Responsive menu
+function homepage(){
+    window.location.href='/index.html'
+}
 mobilePov.addEventListener('click',()=>{
     mobilePov.classList.toggle('active');
     navMenu.classList.toggle('active')
