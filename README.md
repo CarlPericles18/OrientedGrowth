@@ -1,7 +1,7 @@
 
 ![OrientedGrowth (1)](https://user-images.githubusercontent.com/86575576/216800327-186a7151-cf34-418d-92e6-9615d954a206.png)
+![orientedgrowth-high-resolution-logo-black-on-transparent-background](https://user-images.githubusercontent.com/86575576/216800366-7b383dbe-b6c4-4c56-8533-3915cdc4dc4f.png)
 
-![ReadMeScreenShhot](https://user-images.githubusercontent.com/86575576/216800233-458e069a-9145-4019-9ec2-3b796418b14c.png)
 # OrientedGrowth
 <!-- ABOUT -->
 ## About
