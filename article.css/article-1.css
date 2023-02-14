@@ -16,7 +16,6 @@ body{
     display: flex;
     flex-direction: column;
     font-family: var(--font-family);
-
 }
 
 .mainLogo{
@@ -24,6 +23,7 @@ body{
     width: 50%;
     height: auto;
     cursor: pointer;
+
 }
 
 
