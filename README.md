@@ -12,4 +12,5 @@
 - Contact us through our contact page if you are willing to have your article on our page. 
 
 - Feel free to us the code for learning purposes only. See our terms and condition. Thank you.
+[Click Here to access website](http://orientedgrowth.com/)
 
