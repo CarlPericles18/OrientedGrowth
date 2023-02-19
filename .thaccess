@@ -1,0 +1,17 @@
+# mode_rewrite starts header
+
+
+# does not apply to existing directories, meaning that if the folder exists on the server then don't change anything
+# and don't run the Rule!
+
+
+# check for  file directory with .html extension
+
+
+# Here we actually show the page that has the .html extension
+
+
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
