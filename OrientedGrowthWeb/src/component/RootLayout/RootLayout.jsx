@@ -18,7 +18,7 @@ export default function RootLayout(){
                         </ul>
                     </div>
                 </nav>
-                <img className='logoImg' src='../public/images/logo-(1).png'></img>
+               <img className='logoImg' src='../public/images/logo-(1).png'></img>
             </header>
             <div className='line'></div>
             <main>
