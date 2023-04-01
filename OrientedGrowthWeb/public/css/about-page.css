@@ -1,0 +1,110 @@
+:root {
+    --font-family:'Kumbh Sans', sans-serif;
+    --font-familyTwo:'Overpass', sans-serif;
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+/* MAIN IMG */
+.about-usImg{
+    width: 100%;
+    height: auto;
+}
+
+.about-Header{
+    margin-top: 50px;
+    text-align: center;
+}
+h1{
+    font-family: var(--font-familyTwo);
+    font-size: 50px;
+    color:#171A21;
+}
+h2{
+    font-family: var(--font-familyTwo);
+    font-size: 25px;
+    color:#171A21;
+}
+
+p{
+    text-align: center;
+    margin: 20px 50px;
+    font-family: var(--font-family);
+}
+
+
+/* Links */
+.socialTwo{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 20px auto 0 auto;
+    justify-content: center;
+    gap: 20px;
+
+}
+.socialTwo img{
+    border: 1px solid white;
+    background-color: #EEFBF5;
+    border-radius: 5px;
+    width: 80%;
+    padding: 4px;
+    height: auto;
+    cursor: pointer;
+
+}
+
+#icon-Img1{
+    border: 2px solid 
+    #6200ea;
+    border-radius: 100%;
+}
+#icon-Img2{
+    border: 2px solid #03a9f4;
+    border-radius: 100%;
+   
+}
+
+#icon-Img3{
+    border: 2px solid #000000;
+    border-radius: 100%;
+   
+}
+#icon-Img4{
+    border: 2px solid #0288d1;
+    border-radius: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
