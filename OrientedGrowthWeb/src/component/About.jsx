@@ -1,11 +1,12 @@
 import React from "react";
 import Footer from "./Sub-Component/Footer";
-import ArticlesData from "./Sub-Component/Articles-Data";
+import ArticlesData from "../../public/Articles-Data";
 import '/public/css/about-page.css'
 
 export default function About(){
     const [About, setAbout] = React.useState(ArticlesData.About)
     const mapOut = About.map(item => {
+        
         return(
             <div className="about-Header" key={item.id}>
                 <h1>{item.AboutHeader}</h1>

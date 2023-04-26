@@ -16,9 +16,10 @@ export default function RootLayout(){
                            <NavLink to='About'className='li'>About</NavLink> 
                            <NavLink to='Contact'className='li'>Contact</NavLink>
                         </ul>
+                        
                     </div>
                 </nav>
-               <img className='logoImg' src='../public/images/logo-(1).png'></img>
+               <img className='logoImg' src='../images/logo-(1).png'></img>
             </header>
             <div className='line'></div>
             <main>

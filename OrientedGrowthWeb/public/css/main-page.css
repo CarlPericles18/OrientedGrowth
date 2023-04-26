@@ -9,8 +9,9 @@
     display: flex;
 }
 .logoImg{
-    margin-top: 10px;
-    max-width: 80%;
+    margin-top: 20px;
+    margin-left: 20px;
+    max-width: 60%;
     height: 100%;
 }
 .li{
@@ -127,11 +128,23 @@ a:hover {
   }
 
 .line{
-    background-color: black;
-    padding: 1px;
+  background-color: rgb(0, 0, 0);
+  padding: 1px;
+  margin-bottom: 10px;
 }
-
-
+.search{
+  display: flex;
+  justify-content: center;
+  background-color:lightgrey;
+  padding: 20px;
+}
+.searchBar{
+  background: url(../images/icons8-search-48.png)no-repeat scroll 3px 2px;
+  background-size: 30px;
+  padding-left:40px;
+  font-size: 20px;
+  border: rgb(170, 169, 169) 2px solid;
+}
 
 
 

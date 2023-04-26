@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "./Sub-Component/Footer";
-import ArticlesData from "./Sub-Component/Articles-Data";
+import ArticlesData from "../../public/Articles-Data";
 import "/public/css/contact-page.css"
 
 export default function Contact(){
@@ -44,7 +44,7 @@ export default function Contact(){
             {contactData}
             <div className="contactSocialTwo">
                 <div className="socialTwo">
-                        <a href=""><img src="./public/images/icons-instagrampng.png" alt="InstagramIcon"></img></a>
+                        <a href=""><img src="./public/images/icons-instagrampng.png" alt="IntagramIcon"></img></a>
                         <a href=""><img src="./public/images/icons-twitter.png" alt="TwitterIcon"></img></a>
                         <a href=""><img src="./public/images/icons-github.png" alt="GitHubIcon"></img></a>
                         <a href=""><img src="./public/images/gmailIcon.png" alt="gmailIcon"></img></a>
