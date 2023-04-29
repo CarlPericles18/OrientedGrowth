@@ -1,5 +1,6 @@
 import React from "react";
 import ArticlesData from "../../../public/Articles-Data";
+import {NavLink, Outlet} from 'react-router-dom'
 
 export default function Body(props){
     const [articleSearch, setArticleSearch] = React.useState("")
@@ -24,11 +25,11 @@ export default function Body(props){
                        .map((item)=>{
                             return(
                               <div className="articleDiv" key = {item.id}>
-                                 <img className="titleImg" src ={item.img} alt='mountainImg'/>
+                               <NavLink to={`/Articles/${item.title}`}><img className="titleImg" src ={item.img} alt='mountainImg'/></NavLink>
                                  <h1 className="titleName">{item.title}</h1>
                                  <h4 className="name">{item.name}</h4>
                                  <h4 className="date">{item.date}</h4>
-                             </div> 
+                              </div> 
                              )
                           })
                       }

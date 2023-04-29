@@ -9,10 +9,12 @@ import React from "react";
 import Home from "./component/Home";
 import About from "./component/About";
 import Contact from "./component/Contact";
+import Articles from './component/Articles';
 import RootLayout from "./component/RootLayout/RootLayout"
 import "../public/css/main-page.css"
 import "../public/css/about-page.css"
 import "../public/css/contact-page.css"
+import data from "../public/Articles-Data"
 import NotFound from './component/RootLayout/NotFound';
 export  default function App(){
 
@@ -22,6 +24,7 @@ export  default function App(){
                 <Route index element={<Home />} />
                 <Route path='About' element={<About />} />
                 <Route path='Contact' element={<Contact />} />
+                <Route path='/Articles/:title' element={<Articles data={data} />} />
                 <Route path='*' element={<NotFound/>}/>
             </Route>
         )

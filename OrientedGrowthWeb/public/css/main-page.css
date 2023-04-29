@@ -177,15 +177,17 @@ a:hover {
     margin-left: 10px;
 }
 .footerDiv{
-    margin-top: 40px;
-    color: white;
-    background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    padding-top: 20px;
+  margin-top: 40px;
+  color: white;
+  background-color: rgb(86, 84, 84);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding-top: 20px;
+  position: absolute;
+
 }
 .footerImg{
-    max-width: 30%;
+  max-width: 30%;
 }
 .Terms{
     display: flex;
@@ -230,6 +232,12 @@ header nav a{
     display: flex;
     color: black;
     font-size: 20px;
+}
+.socialTwo{
+  width: 55%;
+}
+.socialTwo img{
+  background-color: transparent;
 }
 
 

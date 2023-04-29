@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+.BackBtn{
+    background: url(../images/left-arrow.png)no-repeat scroll 3px 2px;
+    background-size: 30px;
+    padding: 5px 30px 5px 50px ;
+    font-size: 15px;
+    background-color: white;
+    color:black;
+    margin-left:10px ;
+    border: 0;
+    border-radius:5px;
+    -webkit-box-shadow: 0px 0px 15px -1px rgba(143,137,143,1);
+    -moz-box-shadow: 0px 0px 15px -1px rgba(143,137,143,1);
+    box-shadow: 0px 0px 15px -1px rgba(143,137,143,1);
+}
+
+.ArticleTitles{
+    font-size: 25px;
+    padding-left: 10px;
+}
+.titles{
+    font-size: 35px;
+    font-family: open sans;
+    font-weight:bold;
+    text-align: center;
+
+}
+
+h5{
+    font-family: open sans;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 50px;
+}
+p{
+    text-align: left;
+    font-family: open sans;
+    font-size: 20px;
+}
