@@ -1,10 +1,8 @@
 [
     {
-        id: 1,
-        article1: 1,
-        title:"WAYS TO MITIGATE DISCIPLINE",
-        
-        
+        "id": 1,
+        "article1": 1,
+        "title":"WAYS TO MITIGATE DISCIPLINE",
         "name":"By Carl Pericles",
         "date":"Last Updated Dec. 2, 2022"
     },

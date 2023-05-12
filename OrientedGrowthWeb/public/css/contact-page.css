@@ -23,7 +23,6 @@ body{
 
 }
 .socialTwo img{
-    border: 1px solid white;
     background-color: #EEFBF5;
     border-radius: 5px;
     width: 80%;
@@ -119,7 +118,7 @@ h5{
 
 .contactInformation{
     width: 80%;
-    margin: 30px 50px 0 50px;
+    margin: 30px 50px 30px 50px;
     background:#171A21;
     border: 2px solid #171A21;
     border-radius: 5%;
@@ -137,8 +136,16 @@ h5{
     font-size: 15px;
     margin-bottom:15px ;
 }
-
-
+label{
+    margin-bottom:10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.submitBtn{
+    width:50%;
+    border-radius: 5px;
+    margin: 0 auto 0 auto;
+}
 .contactBox{
     padding: 5px;
     margin-bottom:25px ;
@@ -166,7 +173,10 @@ textarea {
     font-size: inherit;
     resize:vertical;
     font-family: var(--font-family);
-
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
  }
 
 /* FORM SUBMIT BTN */
@@ -189,6 +199,79 @@ textarea {
 .sub:hover{
     background-color: black;
     color: white;
+}
+#MessageSent{
+   background-color: #55a93f;
+   opacity: 0;
+   color: white;
+   font-weight: bold;
+   padding: 10px;
+   width: 50%;
+   display: flex;
+   margin: 0 auto 0 auto;
+   justify-content: center;
+   position:sticky;
+   bottom: 480px;
+}
+.MessageS{
+    background-color: #55a93f;
+    opacity: 0.8;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    margin: 0 auto 0 auto;
+    justify-content: center;
+    position:sticky;
+    bottom: 480px;
+
+}
+.about-HeaderDark h1{
+    color: white
+}
+.socialTwoDark{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 20px auto 0 auto;
+    justify-content: center;
+    gap: 20px;
+    background-color:transparent;
+
+}
+.socialTwoDark img{
+    background-color:transparent;
+    border-radius: 5px;
+    width: 80%;
+    padding: 4px;
+    height: auto;
+    cursor: pointer;
+}
+
+.DarkContact{
+    background-color: #1E1E23;
+}
+.contactInformationDark{
+    width: 80%;
+    margin: 30px 50px 30px 50px;
+    background-color: #1E1E23;
+    border: 2px solid #ffffff;
+    border-radius: 5%;
+}
+@media screen and (min-width: 880px){
+    .contactInformation{
+        margin: 40px auto 0 auto;
+        width: 30%;
+    }
+    .contactInformationDark{
+        margin: 40px auto 0 auto;
+        width: 30%;
+    }
+    .DarkContact{
+        background-color: #242124;
+
+    }
 }
 
 

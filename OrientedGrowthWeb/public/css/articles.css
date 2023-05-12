@@ -12,6 +12,20 @@
     width: 100%;
     padding: 10px;
 }
+.containerDark{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: #242124;
+    color: white
+}
+.containerDark h1{
+    color: white;
+    margin-top: 20px;
+}
 .BackBtn{
     background: url(../images/left-arrow.png)no-repeat scroll 3px 2px;
     background-size: 30px;
@@ -26,27 +40,102 @@
     -moz-box-shadow: 0px 0px 15px -1px rgba(143,137,143,1);
     box-shadow: 0px 0px 15px -1px rgba(143,137,143,1);
 }
-
+.bodyDark{
+    background-color: #242124;
+}
+.BackBtnDark{
+    background: url(../images/left-arrow.png)no-repeat scroll 3px 2px;
+    background-size: 30px;
+    padding: 5px 30px 5px 50px ;
+    font-size: 15px;
+    background-color: #ffffff;
+    color:rgb(0, 0, 0);
+    margin-left:10px ;
+    margin-top: 10px;
+    border: 0;
+    border-radius:5px;
+    -webkit-box-shadow: 0px 0px 15px -1px rgba(143,137,143,1);
+    -moz-box-shadow: 0px 0px 15px -1px rgba(143,137,143,1);
+    box-shadow: 0px 0px 15px -1px rgba(143,137,143,1);
+}
 .ArticleTitles{
-    font-size: 25px;
-    padding-left: 10px;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 .titles{
-    font-size: 35px;
-    font-family: open sans;
-    font-weight:bold;
-    text-align: center;
-
+        font-family: open sans;
+        font-weight: bold;
+        font-size: 25px;
+        margin-top: 50px;
+        text-align: center;
 }
 
-h5{
-    font-family: open sans;
-    font-weight: bold;
-    font-size: 30px;
-    margin-top: 50px;
-}
-p{
+
+.desc{
     text-align: left;
     font-family: open sans;
     font-size: 20px;
+}
+
+@media screen and (min-width: 880px){
+ 
+    .BackBtn{
+        margin:50px;
+    }
+    .BackBtnDark{
+        margin:50px;
+    }
+    .desc{
+        padding-bottom:30px;
+    }
+    .fullcard img{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        margin: 0 auto 0 auto;
+    }
+    .fullCardDark img{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        padding: 0 50px 0 50px;
+        margin-top: -9px;
+    }
+    .ArticleTitles{
+        text-align: left;
+        margin-top: 20px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .ArticleTitlesDark{
+        text-align: left;
+        margin-top: 20px;
+        font-size: 30px;
+        margin-left: 70px;
+        font-weight: bold;
+    }
+    .titles{
+        font-size:40px;
+
+    }
+    .name{
+        text-align: left;
+    }
+    .nameDark{
+        margin-left:70px;
+        font-size: 13px;
+
+    }
+    .dateDark{
+        margin-left: 70px;
+        font-size: 13px;
+    }
+    .date{
+        text-align: left;
+    }
+    .Footer{
+        margin: 60% 0 auto 0;
+    }
 }

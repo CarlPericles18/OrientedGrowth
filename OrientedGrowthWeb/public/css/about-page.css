@@ -10,29 +10,48 @@ body{
 
 
 /* MAIN IMG */
+.aboutBodyDark{
+  background-color: #242124;
+}
+.about-HeaderDark{
+    color: white;
+}
+.about-HeaderDark h1{
+    color: white;
+    margin-top: 0;
+}
+.about-HeaderDark h2{
+    color: white;
+}
+.about-HeaderDark {
+    color: white;
+}
 .about-usImg{
     width: 100%;
     height: auto;
 }
 
 .about-Header{
-    margin-top: 50px;
     text-align: center;
 }
 h1{
     font-family: var(--font-familyTwo);
-    font-size: 50px;
     color:#171A21;
+    text-align: center;
+    font-size: 50px;
+
 }
 h2{
     font-family: var(--font-familyTwo);
     font-size: 25px;
     color:#171A21;
+    text-align: center;
 }
 
 p{
     text-align: center;
-    margin: 20px 50px;
+    margin: 0px 50px;
+    padding: 20px;
     font-family: var(--font-family);
 }
 
@@ -41,21 +60,38 @@ p{
 .socialTwo{
     display: flex;
     flex-direction: row;
-    width: 60%;
+    width: 100%;
     margin: 20px auto 0 auto;
     justify-content: center;
     gap: 20px;
+    padding-bottom: 20px;
+}
+.socialTwoDark{
+    background-color: #242124;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
 
 }
+.socialTwoDark img{
+    background-color: #242124;
+    border-radius: 5px;
+    width: 100%;
+    padding: 14px;
+    height: auto;
+    cursor: pointer;
+}
+
 .socialTwo img{
-    border: 1px solid white;
     background-color: #EEFBF5;
     border-radius: 5px;
-    width: 80%;
+    width: 40%;
     padding: 4px;
     height: auto;
     cursor: pointer;
-
 }
 
 #icon-Img1{
@@ -79,6 +115,27 @@ p{
     border-radius: 100%;
 }
 
+@media screen and (min-width: 880px){
+    .about-Header{
+        font-size:14px;
+        width: 50%;
+        margin: 0px auto 90px auto;
+        padding-top: 20px;
+    }
+    .about-HeaderDark{
+        font-size:14px;
+        width: 50%;
+        margin: 0px auto 90px auto;
+        padding-top: 20px;
+
+    }
+    .socialTwo{
+        max-width:240px;
+    }
+    .socialTwoDark{
+        max-width:240px;
+    }
+}
 
 
 

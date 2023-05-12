@@ -18,13 +18,24 @@ import data from "../public/Articles-Data"
 import NotFound from './component/RootLayout/NotFound';
 export  default function App(){
 
+    const [darkMode, setDarkMode] = React.useState(false)
+    function toggleDarkMode(){
+        setDarkMode(prevDarkMode => !prevDarkMode)
+    }
+
     const router = createBrowserRouter(
         createRoutesFromElements(
-            <Route path="/" element={<RootLayout />}>
-                <Route index element={<Home />} />
-                <Route path='About' element={<About />} />
-                <Route path='Contact' element={<Contact />} />
-                <Route path='/Articles/:title' element={<Articles data={data} />} />
+                <Route path="/" element={<RootLayout toggleDarkMode={toggleDarkMode} darkMode={darkMode} />}>
+                <Route index element={<Home 
+                darkMode={darkMode}
+                />} />
+                <Route path='About' element={<About
+                 darkMode={darkMode}
+                />} />
+                <Route path='Contact' element={<Contact
+                 darkMode={darkMode}
+                />} />
+                <Route path='/Articles/:title' element={<Articles data={data} darkMode={darkMode} />} />
                 <Route path='*' element={<NotFound/>}/>
             </Route>
         )
