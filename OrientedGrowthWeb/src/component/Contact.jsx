@@ -43,7 +43,7 @@ export default function Contact(props){
                  <div className={props.darkMode?"contactInformationDark":"contactInformation"}>
                     <form className="form" ref={form} onSubmit={sendEmail}>
                         <label>Name</label>
-                        <input className="name" type="text" name="from_name" required/>
+                        <input className="nameInput" type="text" name="from_name" required/>
                         <label>Subject</label>
                         <input className="subject"type="text" name="subject" required/>
                         <label>Email</label>

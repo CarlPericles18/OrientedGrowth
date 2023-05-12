@@ -167,6 +167,8 @@ input:-webkit-autofill:active {
 .contactBox:focus{
     outline: none;
 }
+.name{
+}
 
 textarea {
     font-family: inherit;
@@ -200,33 +202,7 @@ textarea {
     background-color: black;
     color: white;
 }
-#MessageSent{
-   background-color: #55a93f;
-   opacity: 0;
-   color: white;
-   font-weight: bold;
-   padding: 10px;
-   width: 50%;
-   display: flex;
-   margin: 0 auto 0 auto;
-   justify-content: center;
-   position:sticky;
-   bottom: 480px;
-}
-.MessageS{
-    background-color: #55a93f;
-    opacity: 0.8;
-    color: white;
-    font-weight: bold;
-    padding: 10px;
-    width: 50%;
-    display: flex;
-    margin: 0 auto 0 auto;
-    justify-content: center;
-    position:sticky;
-    bottom: 480px;
 
-}
 .about-HeaderDark h1{
     color: white
 }

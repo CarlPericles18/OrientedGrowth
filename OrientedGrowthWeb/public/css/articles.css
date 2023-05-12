@@ -64,6 +64,21 @@
     margin-left: 10px;
     margin-top: 10px;
 }
+.ArticleTitlesDark{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.nameDark{
+    margin-left: 10px;
+    font-size: 13px;
+
+}
+.dateDark{
+    margin-left: 10px;
+    font-size: 13px;
+}
 .titles{
         font-family: open sans;
         font-weight: bold;
@@ -110,11 +125,9 @@
         font-weight: bold;
     }
     .ArticleTitlesDark{
-        text-align: left;
-        margin-top: 20px;
         font-size: 30px;
-        margin-left: 70px;
-        font-weight: bold;
+        text-align: left;
+        margin-left: 68px;
     }
     .titles{
         font-size:40px;

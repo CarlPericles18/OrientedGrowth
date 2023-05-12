@@ -25,7 +25,7 @@ export default function Body(props){
                        .map((item)=>{
                             return(
                               <div className="articleDiv" key = {item.id}>
-                               <NavLink to={`/Articles/${item.title}`}><div className="divArticleImg"><img className="titleImg" src ={item.img} alt='mountainImg'/></div></NavLink>
+                               <NavLink to={`/Articles/${item.title}`}><div className="divArticleImg"><img className="titleImg" src={item.img}  alt='mountainImg'/></div></NavLink>
                                  <div className="articlesInformation">
                                  <h1 className="titleName">{item.title}</h1>
                                  <h4 className="name">{item.name}</h4>
