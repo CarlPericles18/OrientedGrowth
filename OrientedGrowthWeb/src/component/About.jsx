@@ -34,7 +34,8 @@ export default function About(props){
                                 <a href="mailto:webdev.learnersuni@gmail.com" target="_blank"><img src={email} alt="gmailIcon"></img></a>
                         </div>
                 </div>
-            <Footer/>
+            {/* <Footer/> ---fixing-- */}
         </div>
+
     )
 }

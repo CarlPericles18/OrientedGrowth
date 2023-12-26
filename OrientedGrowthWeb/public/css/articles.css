@@ -59,7 +59,7 @@
     box-shadow: 0px 0px 15px -1px rgba(143,137,143,1);
 }
 .ArticleTitles{
-    font-size: 20px;
+    font-size: 30px;
     text-align: left;
     margin-left: 10px;
     margin-top: 10px;
@@ -82,7 +82,7 @@
 .titles{
         font-family: open sans;
         font-weight: bold;
-        font-size: 25px;
+        font-size: 40px;
         margin-top: 50px;
         text-align: center;
 }
@@ -91,7 +91,7 @@
 .desc{
     text-align: left;
     font-family: open sans;
-    font-size: 20px;
+    font-size: 28px;
 }
 
 @media screen and (min-width: 880px){

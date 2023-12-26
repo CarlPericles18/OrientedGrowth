@@ -1,7 +1,7 @@
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }   
 
 /* ---------------------------------------- NAVIGATION ------------------------------------------- */
@@ -316,7 +316,7 @@ a:hover {
     cursor: pointer;
 }
 .titleName{
-    font-size: 23px;
+    font-size: 33px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 10px;
     cursor: pointer;
@@ -340,15 +340,14 @@ a:hover {
 }
 .footerDiv{
   color: white;
-  background-color: rgb(86, 84, 84);
+  background-color: rgb(0, 0, 0);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
-  padding-top: 10px;
-  position: absolute;
-
+  padding-top: 30px;
+  width:100%;
 }
 .footerImg{
-  max-width: 30%;
+  max-width: 40%;
 }
 .Terms{
     display: flex;
@@ -505,7 +504,11 @@ header nav a{
   margin-top:60px;
 }
 .footerDiv{
+  width: 100%;
+  margin: 100% auto auto auto;
+
 }
+
 .footerImg{
   width: 15%;
 }

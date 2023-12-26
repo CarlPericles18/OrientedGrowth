@@ -3,18 +3,25 @@
     --font-familyTwo:'Overpass', sans-serif;
 }
 
-body{
-    padding: 0%;
-    margin: 0%;
-}
-
-
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}   */
+ body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
 /* MAIN IMG */
+.aboutBody{
+}
 .aboutBodyDark{
   background-color: #242124;
 }
 .about-HeaderDark{
     color: white;
+
 }
 .about-HeaderDark h1{
     color: white;

@@ -8,7 +8,6 @@ export default function Footer(){
                 <h4>Policy</h4>
                 <h4>Terms & Condition</h4>
             </div>
-          
             <p>© 2022 OrientedGrowth. All rights are reserved.</p>
         </div>
         )

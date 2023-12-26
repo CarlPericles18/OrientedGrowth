@@ -4,6 +4,10 @@ import "/public/css/contact-page.css"
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { Form } from "react-router-dom";
+import instagramImg from "../../public/images/icons-instagrampng.png" 
+import twitterImg from "../../public/images/icons-twitter.png" 
+import github from "../../public/images/icons-github.png" 
+import email from "../../public/images/gmailIcon.png" 
 
 export default function Contact(props){
     const [contact, setContact] = React.useState(ArticlesData.Contact)
@@ -34,10 +38,10 @@ export default function Contact(props){
             {contactData}
             <div className={"contactSocialTwo"}>
                 <div className={props.darkMode?"socialTwoDark":"socialTwo"}>
-                        <a href="https://www.instagram.com/carl_pericles/" target="_blank"><img src="./public/images/icons-instagrampng.png" alt="IntagramIcon"></img></a>
-                        <a href="https://twitter.com/Pericles_Carl" target="_blank"><img src="./public/images/icons-twitter.png" alt="TwitterIcon"></img></a>
-                        <a href="https://github.com/CarlPericles18" target="_blank"><img src="./public/images/icons-github.png" alt="GitHubIcon"></img></a>
-                        <a href="mailto:webdev.learnersuni@gmail.com" target="_blank"><img src="./public/images/gmailIcon.png" alt="gmailIcon"></img></a>
+                        <a href="https://www.instagram.com/carl_pericles/" target="_blank"><img src={instagramImg} alt="IntagramIcon"></img></a>
+                        <a href="https://twitter.com/Pericles_Carl" target="_blank"><img src={twitterImg} alt="TwitterIcon"></img></a>
+                        <a href="https://github.com/CarlPericles18" target="_blank"><img src={github} alt="GitHubIcon"></img></a>
+                        <a href="mailto:webdev.learnersuni@gmail.com" target="_blank"><img src={email} alt="gmailIcon"></img></a>
                 </div>
             </div>
                  <div className={props.darkMode?"contactInformationDark":"contactInformation"}>
@@ -53,8 +57,9 @@ export default function Contact(props){
                         <input  className= "submitBtn" type="submit" value="Send" />
                     </form>
                 </div>
-                <div id="MessageSent">Message Sent</div>
-            <Footer/>
+                {/* <div id="MessageSent">Message Sent</div> */}
+             {/* <Footer/> ---fixing-- */}
+
         </div>
     )
 }

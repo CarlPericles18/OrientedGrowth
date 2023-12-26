@@ -16,6 +16,7 @@ export default function Articles(props){
                             <h1 className={props.darkMode?'ArticleTitlesDark':'ArticleTitles'}>{card.title}</h1>
                             <h4 className={props.darkMode ?"nameDark":"name"}>{card.name}</h4>
                             <h4 className={props.darkMode?"dateDark":"date"}>{card.date}</h4>
+                            <p  className="desc">{card.text0}</p>
                             <h5 className='titles'>{card.subTitle1}</h5>
                             <p  className="desc">{card.text1}</p>
                             <h5 className='titles'>{card.subTitle2}</h5>
@@ -28,6 +29,13 @@ export default function Articles(props){
                             <p  className="desc">{card.text5}</p>
                             <h5 className='titles'>{card.subTitle6}</h5>
                             <p  className="desc">{card.text6}</p>
+                            <h5 className='titles'>{card.subTitle7}</h5>
+                            <p  className="desc">{card.text7}</p>
+                            <h5 className='titles'>{card.subTitle8}</h5>
+                            <p  className="desc">{card.text8}</p>
+                            <h5 className='titles'>{card.subTitle9}</h5>
+                            <p  className="desc">{card.text9}</p>
+                            <h6 className="desc">{card.text10}</h6>
                         </div>
                 ))}
             </div>

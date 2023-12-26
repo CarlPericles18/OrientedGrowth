@@ -5,7 +5,7 @@ import Sun from "../../../public/images/Sun.png"
 export default function RootLayout(props){
     return(
         <div>
-            <div className="darkMode" onClick={props.toggleDarkMode}><img className ="sun"src={props.darkMode ? Sun:Moon }></img></div>
+            {/* <div className="darkMode" onClick={props.toggleDarkMode}><img className ="sun"src={props.darkMode ? Sun:Moon }></img></div> --FIXING Screen to adjust to dark mode-- */}
             <header className={props.darkMode?'HeaderNavDark':'HeaderNav'}>
                     <div>
                         <nav role="navigation">
@@ -26,10 +26,10 @@ export default function RootLayout(props){
             </header>
 
             <header className={props.darkMode?'HeaderNavTwoDark':'HeaderNavTwo'}>
-            <div className="darkMode" onClick={props.toggleDarkMode}><img className ="sun"src={props.darkMode ? Sun:Moon }></img></div>
-            <div className='imgDiv'><img className='logoImgTwo' src={props.darkMode?"../images/logo-(2).png":"../images/logo-(1).png"}></img></div>
-                    
-                    <div>
+            {/* <div className="darkMode" onClick={props.toggleDarkMode}><img className ="sun"src={props.darkMode ? Sun:Moon }></img></div>
+            <div className='imgDiv'><img className='logoImgTwo' src={props.darkMode?"../images/logo-(2).png":"../images/logo-(1).png"}></img></div> --FIXING Screen to adjust to dark mode--  */}
+                 
+            <div>
                         <div role="navigationTwo" className='NavigationTwo'>
                                     <ul id="menuTwo">
                                        <NavLink to="/" className='li'>Home</NavLink> 
@@ -37,11 +37,11 @@ export default function RootLayout(props){
                                        <NavLink to='Contact'className='li'>Contact</NavLink>
                                     </ul>
                          </div>
-                     </div> 
+                     </div>    
             </header>
             <div className='line'></div>
             <main>
-                <Outlet />
+            <Outlet />
             </main>
         </div>
     )
