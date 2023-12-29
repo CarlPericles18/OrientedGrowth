@@ -12,7 +12,6 @@ import Contact from "./component/Contact";
 import Articles from './component/Articles';
 import Terms from './component/Terms';
 import Policy from './component/Policy';
-import Author from "./component/Author";
 import RootLayout from "./component/RootLayout/RootLayout"
 import "../public/css/main-page.css"
 import "../public/css/about-page.css"
@@ -28,7 +27,7 @@ export  default function App(){
 
     const router = createBrowserRouter(
         createRoutesFromElements(
-                <Route path="/" element={<RootLayout toggleDarkMode={toggleDarkMode} darkMode={darkMode} />}>
+                <Route path='/' element={<RootLayout toggleDarkMode={toggleDarkMode} darkMode={darkMode} />}>
                 <Route index element={<Home 
                 darkMode={darkMode}
                 />} />
@@ -41,10 +40,9 @@ export  default function App(){
                 <Route path='Terms' element={<Terms
                  darkMode={darkMode}
                 />} />
-                <Route path='Policy' element={<Policy
-                 darkMode={darkMode}
-                />} />
-               
+                <Route path='Policy'
+                 element={<Policy darkMode={darkMode}
+                />}/>
                 <Route path='/Articles/:title' element={<Articles data={data} darkMode={darkMode} />} />
                 <Route path='*' element={<NotFound/>}/>
             </Route>

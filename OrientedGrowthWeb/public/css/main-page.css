@@ -402,6 +402,10 @@ header nav a{
 .HeaderNavTwoDark{
   display: none;
 }
+.Terms h2{
+  color: white;
+  font-size:20px;
+}
 
 /* ------------------------------------- MEDIA ------------------------------------- */
 
