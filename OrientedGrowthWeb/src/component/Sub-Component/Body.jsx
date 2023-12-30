@@ -4,7 +4,9 @@ import {NavLink, Outlet} from 'react-router-dom'
 
 export default function Body(props){
     const [articleSearch, setArticleSearch] = React.useState("")
-
+    const handleScrollTop = () =>{
+          window.scrollTo(0,0);
+      }
     return(
         <div>
                 <div className={props.darkMode?"searchDark":"search"}>
@@ -25,7 +27,7 @@ export default function Body(props){
                        .map((item)=>{
                             return(
                               <div className="articleDiv" key = {item.id}>
-                               <NavLink to={`/Articles/${item.title}`}><div className="divArticleImg"><img className="titleImg" src={item.img}  alt='mountainImg'/></div></NavLink>
+                               <NavLink to={`/Articles/${item.title}`} onClick={handleScrollTop}><div className="divArticleImg"><img className="titleImg" src={item.img}  alt='mountainImg'/></div></NavLink>
                                  <div className="articlesInformation">
                                  <h1 className="titleName">{item.title}</h1>
                                  <h4 className="name">{item.name}</h4>

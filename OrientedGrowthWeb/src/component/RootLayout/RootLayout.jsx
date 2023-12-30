@@ -1,16 +1,37 @@
 import {NavLink, Outlet} from 'react-router-dom'
+import React, {useState, useEffect} from 'react'
 import Moon from "../../../public/images/Moon.png"
 import Sun from "../../../public/images/Sun.png"
 
 export default function RootLayout(props){
+    const [isSticky, setIsSticky] = useState(false);
+
+    useEffect(() => {
+      const handleScroll = () => {
+        if (window.scrollY > 0) {
+          setIsSticky(true);
+        } else {
+          setIsSticky(false);
+        }
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+  
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, []);
+    
+   
     return(
         <div>
             {/* <div className="darkMode" onClick={props.toggleDarkMode}><img className ="sun"src={props.darkMode ? Sun:Moon }></img></div> --FIXING Screen to adjust to dark mode-- */}
             <header className={props.darkMode?'HeaderNavDark':'HeaderNav'}>
+            {/* props.darkMode?'HeaderNavDark':'HeaderNav'  */}
                     <div>
-                        <nav role="navigation">
+                        <nav role="navigation" >
                               <div id={props.darkMode ? "menuToggleDark":"menuToggle"}>
-                                    <input type="checkbox" />
+                                <input type="checkbox" />
                                     <span></span>
                                         <span></span>
                                         <span></span>
@@ -22,7 +43,7 @@ export default function RootLayout(props){
                               </div>
                          </nav>
                      </div> 
-               <img className='logoImg' src={props.darkMode?"../images/logo-(2).png":"../images/logo-(1).png"}></img>
+               <NavLink to='/'><img className='logoImg' src={props.darkMode?"../images/logo-(2).png":"../images/logo-(1).png"}></img></NavLink>
             </header>
 
             <header className={props.darkMode?'HeaderNavTwoDark':'HeaderNavTwo'}>
