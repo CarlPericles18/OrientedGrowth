@@ -48,7 +48,7 @@
 .li{
     transition: 200ms;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 30px;
 }
 
@@ -91,7 +91,7 @@ a:hover {
   #menuToggle span
   {
     display: flex;
-    width: 40%;
+    width: 50%;
     height: 6px;
     margin-bottom: 5px;
     position: relative;
@@ -117,7 +117,7 @@ a:hover {
   #menuToggle input:checked ~ span
   {
     opacity: 1;
-    transform: rotate(45deg) translate(4px, 3px);
+    transform: rotate(45deg) translate(2px, 0.5px);
     background: #36383F;
   }
   #menuToggle input:checked ~ span:nth-last-child(3)
@@ -134,15 +134,15 @@ a:hover {
   #menu
   {
     position: absolute;
-    width: 280px;
-    height: 500px;
+    width: 180px;
+    height: 350px;
     box-shadow: 0 0 10px #85888C;
     margin: -50px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
     background-color: #F5F6FA;
     -webkit-font-smoothing: antialiased;
-    transform-origin: 0% 0%;
+    transform-origin: 5px 0px;
     transform: translate(-100%, 0);
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
   }
@@ -160,10 +160,18 @@ a:hover {
 
   /* NAVIGATION DARKMODE */
 
+  nav {
+    margin-top: 10px;
+    height: 65px;
+    width: 80px;
+  }
+
   .HeaderNavDark{
+      position: fixed;
+      top: 0;
+      transition: top 0.3s;
       display: flex;
       background-color: #242124;
-      padding-bottom: 30px;
     }
   .HeaderNav img{
       user-select: none;
@@ -174,7 +182,7 @@ a:hover {
   .liDark{
     transition: 200ms;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 30px;
     color: #EDEAE0;
 
@@ -234,7 +242,7 @@ a:hover {
   #menuToggleDark input:checked ~ span
   {
     opacity: 1;
-    transform: rotate(45deg) translate(1px, .5px);
+    transform: rotate(45deg) translate(2px, 0.5px);
     background: #EDEAE0;
   }
   #menuToggleDark input:checked ~ span:nth-last-child(3)
@@ -251,13 +259,13 @@ a:hover {
   #menuDark
   {
     position: absolute;
-    width: 280px;
-    height: 500px;
+    width: 180px;
+    height: 350px;
     box-shadow: 0 0 10px #242124;
     margin: -50px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
-    background-color:#242124;
+    background-color: #242124;
     -webkit-font-smoothing: antialiased;
     transform-origin: 0% 0%;
     transform: translate(-100%, 0);
@@ -281,7 +289,8 @@ a:hover {
 .search{
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  padding: 20px;
+  margin-top: 70px;
 }
 .searchBar{
   background: url(../images/icons8-search-48.png)no-repeat scroll 3px 2px;
@@ -298,6 +307,7 @@ a:hover {
     justify-content: center;
     background-color:#242124;
     padding: 20px;
+    margin-top: 70px;
 }
 .searchBarDark{
   background: url(../images/icons8-search-48.png)no-repeat scroll 3px 2px;
@@ -313,14 +323,18 @@ a:hover {
 
 
 /*---------------------------------- ARTICLES --------------------------- */
-
+.ArticleTitles{
+  font-size: 25px;
+  font-weight: bold;
+  
+}
 .titleImg{
     max-width: 100%;
     margin-top: 40px;
     cursor: pointer;
 }
 .titleName{
-    font-size: 33px;
+    font-size: 32px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 10px;
     cursor: pointer;
@@ -343,12 +357,13 @@ a:hover {
   padding-bottom: 10px;
 }
 .titles{
-  font-size:30px;
+  font-size:23px;
   text-align: left;
   margin: 20px 0 0 0 ;
+  font-weight: 100;
 }
 .desc{
-  font-size: 20px;
+  font-size: 13px;
   text-align: left;
   margin: 0 0 0 -20px;
 }

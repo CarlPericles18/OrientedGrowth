@@ -25,7 +25,6 @@ export default function RootLayout(props){
    
     return(
         <div>
-            {/* <div className="darkMode" onClick={props.toggleDarkMode}><img className ="sun"src={props.darkMode ? Sun:Moon }></img></div> --FIXING Screen to adjust to dark mode-- */}
             <header className={props.darkMode?'HeaderNavDark':'HeaderNav'}>
             {/* props.darkMode?'HeaderNavDark':'HeaderNav'  */}
                     <div>
@@ -44,11 +43,12 @@ export default function RootLayout(props){
                          </nav>
                      </div> 
                <NavLink to='/'><img className='logoImg' src={props.darkMode?"../images/logo-(2).png":"../images/logo-(1).png"}></img></NavLink>
+               <div className="darkMode" onClick={props.toggleDarkMode}><img className ="sun"src={props.darkMode ? Sun:Moon }></img></div>
+            
             </header>
-
             <header className={props.darkMode?'HeaderNavTwoDark':'HeaderNavTwo'}>
-            {/* <div className="darkMode" onClick={props.toggleDarkMode}><img className ="sun"src={props.darkMode ? Sun:Moon }></img></div>
-            <div className='imgDiv'><img className='logoImgTwo' src={props.darkMode?"../images/logo-(2).png":"../images/logo-(1).png"}></img></div> --FIXING Screen to adjust to dark mode--  */}
+            <div className="darkMode" onClick={props.toggleDarkMode}><img className ="sun"src={props.darkMode ? Sun:Moon }></img></div>
+            <div className='imgDiv'><img className='logoImgTwo' src={props.darkMode?"../images/logo-(2).png":"../images/logo-(1).png"}></img></div> --FIXING Screen to adjust to dark mode-- 
                  
             <div>
                         <div role="navigationTwo" className='NavigationTwo'>
