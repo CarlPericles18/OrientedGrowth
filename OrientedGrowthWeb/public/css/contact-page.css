@@ -224,10 +224,13 @@ textarea {
     padding: 4px;
     height: auto;
     cursor: pointer;
+
 }
 
 .DarkContact{
     background-color: #1E1E23;
+    width: 100vw;
+    height: 100vh;
 }
 .contactInformationDark{
     width: 80%;
@@ -235,6 +238,7 @@ textarea {
     background-color: #1E1E23;
     border: 2px solid #ffffff;
     border-radius: 5%;
+
 }
 @media screen and (min-width: 880px){
     .contactInformation{
@@ -245,10 +249,7 @@ textarea {
         margin: 40px auto 0 auto;
         width: 30%;
     }
-    .DarkContact{
-        background-color: #242124;
-
-    }
+  
 }
 
 

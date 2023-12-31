@@ -1,6 +1,5 @@
 import Footer from "./Sub-Component/Footer";
 import ArticlesData from "../../public/Articles-Data";
-import "/public/css/contact-page.css"
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { Form } from "react-router-dom";

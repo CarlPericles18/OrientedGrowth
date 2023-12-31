@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
 }   
 
 /* ---------------------------------------- NAVIGATION ------------------------------------------- */
@@ -436,6 +437,14 @@ header nav a{
   color: white;
   font-size:20px;
 }
+/* ----------------------------------------HOME------------------------------------ */
+
+.HomeDark{
+  background-color:#1E1E23;
+  width: 100vw;
+  height: 100vh;
+}
+
 
 /* ------------------------------------- MEDIA ------------------------------------- */
 
@@ -554,9 +563,7 @@ header nav a{
 .Home{
   position: relative;
 }
-.HomeDark{
 
-}
 .HeaderNavDark{
   display: none;
 }
