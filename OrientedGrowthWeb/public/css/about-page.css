@@ -7,16 +7,20 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  
+    
   }  
   
 /* MAIN IMG */
-
+.aboutBody{
+    margin-top: 70px;
+    width: auto;
+    height: 100vh;
+}
 .aboutBodyDark{
     background-color: #1E1E23;
-    width: 100vw;
+    margin-top: 70px;
+    width: auto;
     height: 100vh;
-
 }
 .about-HeaderDark{
     color: white;
@@ -31,10 +35,12 @@
 }
 .about-HeaderDark {
     color: white;
+
 }
 .about-usImg{
     width: 100%;
     height: auto;
+
 }
 
 .about-Header{
@@ -89,6 +95,7 @@ p{
     padding: 14px;
     height: auto;
     cursor: pointer;
+
 }
 
 .socialTwo img{
@@ -98,6 +105,7 @@ p{
     padding: 14px;
     height: auto;
     cursor: pointer;
+
 }
 
 #icon-Img1{

@@ -318,7 +318,8 @@ a:hover {
   border: rgb(170, 169, 169) 2px solid;
   border-radius: 5px;
   background-color:#242124 ;
-  color: #EDEAE0;
+  color: #242124;
+
 }
 
 
@@ -441,15 +442,12 @@ header nav a{
 
 .HomeDark{
   background-color:#1E1E23;
-  width: 100vw;
-  height: 100vh;
 }
 
 
 /* ------------------------------------- MEDIA ------------------------------------- */
 
 @media screen and (min-width: 880px){
-
   
   .HeaderNav{
     display: none;
@@ -460,7 +458,8 @@ header nav a{
   }
   .HeaderNavTwoDark{
     display: block;
-    background-color:#242124 ;
+    background-color:#1E1E23;
+
   }
   .imgDiv{
     width: 90%;
@@ -480,15 +479,16 @@ header nav a{
     grid-template-columns: 1fr 1fr ;
     gap: 20px;
     padding: 0 200px;
-    background-color:#242124;
 
   }
   .NavigationTwo{
     width: 100%;
-    background-color:#242124;
+    background-color:#1E1E23;
+
     padding-bottom: 10px;
     margin-top:20px;
     padding-left: 30px;
+
   }
   #menuTwo{
     display: flex;
@@ -506,7 +506,13 @@ header nav a{
     display: none;
   }
   .search{
-    background-color: transparent;
+    width: 30%;
+    margin: 0 auto 0 auto;
+    position: relative;
+    bottom: 80px;
+    left: 30%;
+  }
+  .searchDark{
     width: 30%;
     margin: 0 auto 0 auto;
     position: relative;
@@ -519,6 +525,13 @@ header nav a{
     width:100%;
     background-color: rgb(255, 255, 255);
   }
+ .searchBarDark{
+    padding:3px 0 0 50px;
+    border-radius: 10px;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+
+}
   .template_Container{
     display: grid;
     grid-template-columns: 1fr 1fr ;
