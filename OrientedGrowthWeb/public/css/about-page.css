@@ -141,7 +141,19 @@ p{
         width: 50%;
         margin: 0px auto 90px auto;
         padding-top: 20px;
+    }
+    .about-Header h2{
+        margin-top: -90px;
 
+    }
+    .about-HeaderDark h2{
+        margin-top: -90px;
+    }
+    .aboutBody{
+        margin-top: 0px;
+    }
+    .aboutBodyDark{
+        margin-top: 0px;
     }
     .socialTwo{
         max-width:240px;

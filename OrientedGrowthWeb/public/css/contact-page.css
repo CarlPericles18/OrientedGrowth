@@ -145,12 +145,12 @@ label{
 .submitBtn{
     width:50%;
     border-radius: 5px;
-    margin: 0 auto 0 auto;
+    margin: 2px auto 0 auto;
 }
 .contactBox{
     padding: 5px;
-    margin-bottom:25px ;
     background-color: transparent;
+    margin-bottom:25px ;
     font-size: 15px;
     text-align: left;
     border: 0px solid #EEFBF5;
@@ -173,12 +173,11 @@ input:-webkit-autofill:active {
 textarea {
     font-family: inherit;
     font-size: inherit;
-    resize:vertical;
+    resize: none;
     font-family: var(--font-family);
     width: 100%;
     height: 100%;
     padding-bottom: 50px;
-    margin-bottom: 20px;
  }
 
 /* FORM SUBMIT BTN */
@@ -227,20 +226,19 @@ textarea {
 }
 .Contact{
     margin: 70px auto 30px auto;
-    width:100%;
-    height:100%;
+    width: auto;
+    height: 100vh;
 }
 .DarkContact{
     background-color: #1E1E23;
-    border: 1px solid transparent;
-    margin: 70px auto auto auto;
-    width:100%;
-    height:100%;
+    margin: 70px auto 0 auto;
+    width: auto;
+    height: 100vh;
 }
 
 .contactInformationDark{
     width: 80%;
-    margin: 30px auto 30px auto;
+    margin: 0px auto 30px auto;
     background-color: #1E1E23;
     border: 2px solid #ffffff;
     border-radius: 5%;
@@ -250,12 +248,19 @@ textarea {
     .contactInformation{
         margin: 40px auto 0 auto;
         width: 30%;
-    }
+    
+   }
     .contactInformationDark{
         margin: 40px auto 0 auto;
         width: 30%;
     }
-  
+    .DarkContact{
+        margin: 0;
+
+    }
+    .Contact{
+        margin: 0;
+    }
 }
 
 
