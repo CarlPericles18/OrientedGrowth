@@ -26,7 +26,6 @@ export default function RootLayout(props){
     return(
         <div>
             <header className={props.darkMode?'HeaderNavDark':'HeaderNav'}>
-            {/* props.darkMode?'HeaderNavDark':'HeaderNav'  */}
                     <div>
                         <nav role="navigation" >
                               <div id={props.darkMode ? "menuToggleDark":"menuToggle"}>

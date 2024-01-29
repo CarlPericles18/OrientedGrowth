@@ -7,7 +7,6 @@ export default function Articles(props){
     
     return(
         <div className={props.darkMode?"bodyDark":"body"}>
-            {/* <NavLink to ='/'><button className={props.darkMode?"BackBtnDark":"BackBtn"}>Back</button></NavLink>  */}
             <div className={props.darkMode?"containerDark":"container"}>
                 {data.Articles
                 .filter((items)=> items.title === title)

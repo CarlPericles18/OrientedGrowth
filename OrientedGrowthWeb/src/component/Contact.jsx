@@ -2,7 +2,6 @@ import Footer from "./Sub-Component/Footer";
 import ArticlesData from "../../public/Articles-Data";
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { Form } from "react-router-dom";
 import instagramImg from "../../public/images/icons-instagrampng.png" 
 import twitterImg from "../../public/images/icons-twitter.png" 
 import github from "../../public/images/icons-github.png" 
@@ -56,7 +55,6 @@ export default function Contact(props){
                         <input  className= "submitBtn" type="submit" value="Send" />
                     </form>
                 </div>
-                {/* <div id="MessageSent">Message Sent</div> */}
              {/* <Footer/> ---fixing-- */}
 
         </div>
